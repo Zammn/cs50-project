@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="mainpage.css" rel="stylesheet">
+		<title>Frank&Henry Clothing</title>
+</head>
+<body>
+		<div class="subbox">
+			 <div class="container"> 
+				<div class="navigation">
+					<div class="right-side">
+						<div class="navbits">
+							<a href="">My Account</a>
+						</div>
+						<div class="navbits">
+							<a href="">Homepage</a>
+						</div>
+						<div class="navbits">
+							<a href="">Cart</a>
+						</div>
+						<div class="left-side">
+							<div class="Name">
+								<h1><a href="">Frank&Henry Clothing</a></h1>
+							</div>
+					</div>
+			</div>
+		</div>    
+		<div class="background-cover">
+					<img src="https://images.unsplash.com/photo-1601924994987-69e26d50dc26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="initialcover">
+							<div class="text">
+									<h2>20% off on new arrivals!</h2>
+									<h3>Winter stock available</h3>
+									<h3>40% off on online orders!</h3>
+									</div>
+							<form action="" method="get">
+									<input type="submit" value="ShopNow">
+							</form>
+						</div>
+					<div class="moreinformation">
+						<img src="https://wallpapercave.com/wp/wp3130193.jpg" alt="Picture" class="image">
+								<div class="middle">
+							<div class="textonimg1">
+								Our new winter collection has you covered.<br> Clothes ranging from the latest fashion to simple plain ones.</br>Our factory outlets throughout the world continue to provide nothing but excellent garments. In addition, our recently launched online shopping website has also met with a lot of success</div>
+					</div>
+				</div>
+			<div class="jackets">
+				<div class="headingbackground">
+				<h4>
+					Brand new collection of jackets with beautiful designs and pure leather. Option available to get vegan leather as well. Limited stock with custom designs too. Make sure to order it before stock runs out!
+					</h4>
+				</div>	
+					<img src="https://cdn.shopify.com/s/files/1/0686/2513/files/woman-portrait-on-pink-brick_1800x.jpg?v=1663104082" alt="avatar2" class="image2" style="width:100%">
+					<img src="http://www.blacknoble.com/Uploads/UrunResimleri/buyuk/erkek-deri-ceketmartin-siyah-biker-der--a54d-.jpg" alt="avatar3" class="image3" style="width:100%">
+				</div>        
+		<div class="jacket-description">
+			</div>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="https://img.freepik.com/free-photo/leisure-hobbies-concept-stylish-young-woman-singing-karaoke-looking-aside-holding-microphone-performing-song-standing-red-background_1258-64397.jpg?w=2000" style="width:100%">
+				<div class="imgtext">Destined to look good</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="https://c1.wallpaperflare.com/preview/1017/473/68/clothing-store-shop-boutique-men-s-fashion.jpg" style="width:100%">
+				<div class="imgtext">Infinite options to choose from</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="https://images.pexels.com/photos/4130120/pexels-photo-4130120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%">       
+				<div class="imgtext">Always ready for adventures</div>
+			</div>
+		</div>
+		<br>
+		
+			<div style="text-align:center">
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+			</div>
+		
+		<script>
+		let slideIndex = 0;
+		showSlides();
+		
+		function showSlides() {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1}    
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 4000); // Change image every 4 seconds
+		}
+		</script> 
+
+		<div class="Clothinggallery">
+
+			<h5>Collection</h5>
+			<hr>
+			
+			<h2>Clothing items</h2>
+			
+			<div id="myBtnContainer">
+			  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+			  <button class="btn" onclick="filterSelection('nature')"> Jackets</button>
+			  <button class="btn" onclick="filterSelection('cars')"> Pants</button>
+			  <button class="btn" onclick="filterSelection('people')"> Sweater</button>
+			</div>
+			
+			<!-- Gallery Grid -->
+			<div class="row">
+			  <div class="column nature">
+				<div class="content">
+				  <img src="https://wallpapercrafter.com/desktop/244249-an-elegant-man-in-sunglasses-and-a-leather-jacketc.jpg" alt="Mountains" style="width:100%">
+				  <h4>Brown leather Jacket</h4>
+				</div>
+			  </div>
+			  <div class="column nature">
+				<div class="content">
+				<img src="https://kennel-emmani.dk/97551-upload_content/%D0%9C%D1%8A%D0%B6%D0%BA%D0%BE-%D0%BA%D0%BE%D0%B6%D0%B5%D0%BD%D0%BE-%D1%8F%D0%BA%D0%B5-%D0%BE%D1%82-2021-%D0%B5%D1%81%D0%B5%D0%BD-%D0%B7%D0%B8%D0%BC%D0%B0-1.jpeg" alt="Lights" style="width:100%">
+				  <h4>Brown Black jacket</h4>
+				</div>
+			  </div>
+			  <div class="column nature">
+				<div class="content">
+				<img src="https://images.unsplash.com/photo-1592158249887-ac6ae7921691?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGVhdGhlciUyMGphY2tldHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Nature" style="width:100%">
+				  <h4>Black Jacket</h4>
+				</div>
+			  </div>
+			  
+			  <div class="column cars">
+				<div class="content">
+				  <img src="https://i0.wp.com/www.shahzebsaeed.com/wp-content/uploads/2022/11/FDT021-2.jpg?fit=500%2C667&ssl=1" alt="Car" style="width:100%">
+				  <h4>Grey Dress Pants</h4>
+				</div>
+			  </div>
+			  <div class="column cars">
+				<div class="content">
+				<img src="https://media.istockphoto.com/id/499232450/photo/confident-elegant-business-man-with-hands-in-pockets.jpg?s=612x612&w=0&k=20&c=NW_j1fdNw5D2lotnGqunwh1CcwWdnbrbeGQV6OdFE2c=" alt="Car" style="width:100%">
+				  <h4>Black Pants</h4>
+				</div>
+			  </div>
+			  <div class="column cars">
+				<div class="content">
+				<img src="https://media.istockphoto.com/id/1202263196/photo/young-casual-man-in-denim-shirt-looking-to-side-and-walking.jpg?s=612x612&w=0&k=20&c=EfnCW4YaJhfrF2AdrFO7kuFXfo8Y_tsIqPFQFCLRcLU=" alt="Car" style="width:100%">
+				  <h4>Casual Brown Pants</h4>
+				</div>
+			  </div>
+			
+			  <div class="column people">
+				<div class="content">
+				  <img src="https://cdn.shopify.com/s/files/1/0646/2563/9639/products/Navy-Blue-Cable-Knitted-Mock-Neck-Sweater-Brumano-Pakistan_400x.jpg?v=1659187491" alt="Car" style="width:100%">
+				  <h4>Navy Blue Sweater</h4>
+				</div>
+			  </div>
+			  <div class="column people">
+				<div class="content">
+				<img src="https://image.uniqlo.com/UQ/ST3/us/imagesgoods/450635/item/usgoods_52_450635.jpg?width=750" alt="Car" style="width:100%">
+				  <h4>Yellowgreen Sweater</h4>
+				</div>
+			  </div>
+			  <div class="column people">
+				<div class="content">
+				<img src="data:image/jpeg;base64,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" alt="Car" style="width:100%">
+				  <h4>Bisque Sweater</h4>
+				</div>
+			  </div>
+			<!-- END GRID -->
+			</div>
+			
+			<!-- END MAIN -->
+			</div>
+			
+			<script>
+			filterSelection("all")
+			function filterSelection(c) {
+			  var x, i;
+			  x = document.getElementsByClassName("column");
+			  if (c == "all") c = "";
+			  for (i = 0; i < x.length; i++) {
+				w3RemoveClass(x[i], "show");
+				if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+			  }
+			}
+			
+			function w3AddClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+				if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+			  }
+			}
+			
+			function w3RemoveClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+				while (arr1.indexOf(arr2[i]) > -1) {
+				  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+				}
+			  }
+			  element.className = arr1.join(" ");
+			}
+			
+			
+			// Add active class to the current button (highlight it)
+			var btnContainer = document.getElementById("myBtnContainer");
+			var btns = btnContainer.getElementsByClassName("btn");
+			for (var i = 0; i < btns.length; i++) {
+			  btns[i].addEventListener("click", function(){
+				var current = document.getElementsByClassName("active");
+				current[0].className = current[0].className.replace(" active", "");
+				this.className += " active";
+			  });
+			}
+			</script>
+		<div class="endbox">
+			<div class="subendbox">
+				
+			</div>
+		</div>	
+
+
+
+
+
+
+
+
+			</body>
+</html>
